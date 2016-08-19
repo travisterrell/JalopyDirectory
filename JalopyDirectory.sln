@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1183881-79D4-4EA3-87AD-DFE76CEE419C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0807A9A9-E166-4A17-8C1D-E4290F807057}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JalopyDirectory", "src\JalopyDirectory\JalopyDirectory.xproj", "{24007CF1-67C5-4C75-B6CD-0F0E9F02D668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24007CF1-67C5-4C75-B6CD-0F0E9F02D668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24007CF1-67C5-4C75-B6CD-0F0E9F02D668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24007CF1-67C5-4C75-B6CD-0F0E9F02D668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24007CF1-67C5-4C75-B6CD-0F0E9F02D668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24007CF1-67C5-4C75-B6CD-0F0E9F02D668} = {C1183881-79D4-4EA3-87AD-DFE76CEE419C}
+	EndGlobalSection
+EndGlobal
